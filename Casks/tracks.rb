@@ -14,22 +14,22 @@ cask "tracks" do
   on_macos do
     on_intel do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "b0f83a5e8e7e37a7ead24617848e769a01ec1f8198548e39eca973bbf38f16c9"
+      sha256 "eb6fbb1b2714bb9ab70761ff7b04b93d937982412f6e84895dd31c82f711abe7"
     end
     on_arm do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Darwin_arm64.tar.gz"
-      sha256 "f9725d7a07318df0c18ce8a085d39fa46e94373adb9902124c4b9a6002370198"
+      sha256 "7f84b196f71f6755b98204345a62608490df270dfdc2e64575dc060e6ee738a8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Linux_x86_64.tar.gz"
-      sha256 "aa7ecddca43f00897399746bfc03a8f522ef29454470e7adc23ff56a7055e3c7"
+      sha256 "11e004d4807d7aef9af6b4e393917946474dfc2b5e298afcebc836a06c15dc9a"
     end
     on_arm do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Linux_arm64.tar.gz"
-      sha256 "2274a3e7005a9047787ed57bfb6c14d8c097be3ad5593a1b5015bc280303670d"
+      sha256 "e669bb95f592f46be00e388a0a7c0232382e1e6a62459330fa72cccf94f33267"
     end
   end
 
