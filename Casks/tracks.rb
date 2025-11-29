@@ -3,7 +3,7 @@ cask "tracks" do
   name "tracks"
   desc "A batteries included toolkit for hypermedia servers"
   homepage "https://tracks.anomalousventures.com"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "tracks" do
   on_macos do
     on_intel do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "5625d5dbc3ae8dbb18d2196891787d299effadf79b9929534ed06bafc34af2ba"
+      sha256 "bd3fe0edb544ea63442d3644205595134ec7d3e17506c8ff8d2aa8b2b6a78d39"
     end
     on_arm do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Darwin_arm64.tar.gz"
-      sha256 "128266e102c819cab5197c13808724e74ccfbabd698fa85f4f0336253596af80"
+      sha256 "904bbada066e76a48cab6438ef176fb74f6a70f5220161c46ca41df261bcb86c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Linux_x86_64.tar.gz"
-      sha256 "434824c565132320074d9bea5a69ca83e55c0b8c0ac213d4262905fab4b081ac"
+      sha256 "ce5592b3996dc802506f0581d741f76dbb9f4185c07058da2852a931ea6b2806"
     end
     on_arm do
       url "https://github.com/anomalousventures/tracks/releases/download/v#{version}/tracks_#{version}_Linux_arm64.tar.gz"
-      sha256 "b60ec18ab308a0ed927d71effaed9abb79a40fbe3d8b7ea64b2b2b1e50d54e29"
+      sha256 "9e0f31fcfb8ef4955a680313fcf3e42a1dac9015979d7a33913a00912edcbc67"
     end
   end
 
